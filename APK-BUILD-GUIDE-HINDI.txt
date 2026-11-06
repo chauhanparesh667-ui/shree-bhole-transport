@@ -1,0 +1,20 @@
+SHREE BHOLE TRANSPORT - APK BUILD GUIDE
+
+Yeh ZIP React website ka source hai aur ismein GitHub Actions cloud build workflow diya gaya hai.
+
+Mobile se APK banane ke liye:
+1. GitHub account banayein/login karein.
+2. GitHub par New repository banayein, naam: shree-bhole-transport
+3. Is ZIP ko phone mein extract karein.
+4. Extracted folder ke andar ki saari files/folders repository ke main (root) mein upload karein. .github folder bhi upload hona zaroori hai.
+5. GitHub repository mein Actions tab kholein.
+6. 'Build Shree Bhole Transport APK' workflow select karein.
+7. Run workflow dabayein.
+8. Build successful hone par Actions run ke Artifacts section se Shree-Bhole-Transport-APK download karein.
+9. ZIP artifact extract karein; app-debug.apk milega. Phone par install karne ke liye Android ki permission maang sakta hai: Install unknown apps.
+
+NOTE:
+- APK build GitHub ke cloud computer par hoga; phone par Android Studio ki zaroorat nahi.
+- Yeh debug APK hai, Play Store release/signing APK nahi.
+- Build fail ho sakta hai agar project mein existing dependency/configuration issue ho; error log dekhkar fix karna hoga.
+- Firebase configuration project mein maujood hai. Apne Firebase project ki Android app configuration/security rules bhi verify karein.
