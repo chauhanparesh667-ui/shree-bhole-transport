@@ -1,0 +1,8 @@
+{
+  "name": "શ્રી ભોળે ટ્રાન્સપોર્ટ - Shree Bhole Transport",
+  "description": "શ્રી ભોળે ટ્રાન્સપોર્ટ બિઝનેસ અકાઉન્ટિંગ અને મેનેજમેન્ટ સિસ્ટમ (Admin & Operator Portal)",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
